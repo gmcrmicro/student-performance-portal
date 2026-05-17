@@ -98,7 +98,7 @@ const handleLogin = async () => {
       <div className="bg-white shadow-2xl rounded-3xl p-10 w-full max-w-lg">
 
         <h2 className="text-3xl font-bold text-center text-blue-800 mb-8">
-          Student Performance Portal
+          LOGIN
         </h2>
 
         {/* Role */}
