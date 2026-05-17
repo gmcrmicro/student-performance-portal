@@ -562,7 +562,7 @@ export default function ParentDashboard() {
 
   <button
     onClick={handleLogout}
-    className="bg-red-700 hover:bg-red-800 text-white px-6 py-2 rounded-lg text-sm font-semibold"
+    className="bg-red-700 hover:bg-red-800 text-white px-6 py-2 rounded-lg text-sm font-semibold shadow-lg"
   >
     Logout
   </button>
