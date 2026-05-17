@@ -171,47 +171,6 @@ export default function ParentDashboard() {
 
     <div className="min-h-screen flex bg-gray-100">
 
-      {/* Sidebar */}
-
-      <div className="w-72 bg-purple-900 text-white p-6">
-
-        <h1 className="text-3xl font-bold mb-10">
-          Parent Portal
-        </h1>
-
-        <ul className="space-y-6 text-lg">
-
-          <li className="hover:text-purple-300 cursor-pointer">
-            Dashboard
-          </li>
-
-          <li className="hover:text-purple-300 cursor-pointer">
-            Attendance
-          </li>
-
-          <li className="hover:text-purple-300 cursor-pointer">
-            Formative Assessments
-          </li>
-
-          <li className="hover:text-purple-300 cursor-pointer">
-            Part Completion Tests
-          </li>
-
-          <li className="hover:text-purple-300 cursor-pointer">
-            Academic Progress
-          </li>
-
-          <li
-            onClick={handleLogout}
-            className="hover:text-red-300 cursor-pointer text-red-200"
-          >
-            Logout
-          </li>
-
-        </ul>
-
-      </div>
-
       {/* Main Content */}
 
       <div className="flex-1 p-10">
@@ -596,6 +555,15 @@ export default function ParentDashboard() {
         </div>
 
       </div>
+
+ {/* Logout */}
+
+      <button
+        onClick={handleLogout}
+        className="w-full bg-red-700 hover:bg-red-800 text-white p-4 rounded-xl text-xl font-semibold"
+      >
+        Logout
+      </button>
 
     </div>
 
