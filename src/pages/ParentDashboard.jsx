@@ -217,26 +217,6 @@ export default function ParentDashboard() {
           </h3>
 
         </div>
- {/* Logout Button */}
-
-  <button
-    onClick={handleLogout}
-    className="
-      bg-red-700
-      hover:bg-red-800
-      text-white
-      px-5
-      py-2
-      rounded-xl
-      text-sm
-      font-semibold
-      shadow-lg
-    "
-  >
-    Logout
-  </button>
-
-</div>
         {/* Overview Cards */}
 
         <div className="grid grid-cols-4 gap-6 mb-8">
@@ -574,7 +554,26 @@ export default function ParentDashboard() {
         </div>
 
       </div>
+{/* Logout Button */}
 
+  <button
+    onClick={handleLogout}
+    className="
+      bg-red-700
+      hover:bg-red-800
+      text-white
+      px-5
+      py-2
+      rounded-xl
+      text-sm
+      font-semibold
+      shadow-lg
+    "
+  >
+    Logout
+  </button>
+
+</div>
   );
 
 }
