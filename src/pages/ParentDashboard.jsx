@@ -553,20 +553,22 @@ export default function ParentDashboard() {
 
         </div>
 
-      </div>
-{/* Logout Button */}
+{/* Logout */}
+
+<div className="mt-10 mb-6 flex justify-center">
 
   <button
     onClick={handleLogout}
     className="
+      w-full
+      max-w-md
       bg-red-700
       hover:bg-red-800
       text-white
-      px-5
-      py-2
-      rounded-xl
-      text-sm
-      font-semibold
+      py-4
+      rounded-2xl
+      text-xl
+      font-bold
       shadow-lg
     "
   >
@@ -574,6 +576,10 @@ export default function ParentDashboard() {
   </button>
 
 </div>
+
+      </div>
+      
+      </div>
   );
 
 }
