@@ -221,18 +221,45 @@ const handleLogout = () => {
 
         </div>
 
-        {/* Button */}
+        {/* Buttons */}
 
-        <div className="mt-10">
+<div className="mt-10 grid grid-cols-2 gap-6">
 
-          <button
-            onClick={handleSubmit}
-            className="w-full bg-blue-700 hover:bg-blue-800 text-white p-4 rounded-xl text-xl font-semibold"
-          >
-            Save Student
-          </button>
+  {/* Save Student */}
 
-        </div>
+  <button
+    onClick={handleSubmit}
+    className="
+      bg-blue-700
+      hover:bg-blue-800
+      text-white
+      p-4
+      rounded-xl
+      text-xl
+      font-semibold
+    "
+  >
+    Save Student
+  </button>
+
+  {/* Back Button */}
+
+  <button
+    onClick={() => navigate("/faculty")}
+    className="
+      bg-gray-700
+      hover:bg-gray-800
+      text-white
+      p-4
+      rounded-xl
+      text-xl
+      font-semibold
+    "
+  >
+    Back to Dashboard
+  </button>
+
+</div>
 
       </div>
 
